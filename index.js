@@ -4,9 +4,7 @@
 
 function iterativeLog(array) {
 
-  array.forEach(( index, element) => {
-  console.log(`${index}: ${element}`);
-});
+  array.forEach(console.log(`${index}: ${element}`));
 }
 
 
