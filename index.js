@@ -21,3 +21,10 @@ function iterate(callback) {
   stuff.forEach(callback)
   return stuff;
 }
+
+// Define a function, doToArray that accepts an array and a callback.
+// Call .forEach() on the array, passing the callback as the forEach callback.
+
+function doToArray(array, callback) {
+  array.forEach(callback);
+}
