@@ -8,4 +8,17 @@ function iterativeLog(array) {
   console.log(`${index}: ${element}`);
 });
 }
-iterativeLog(array);
+
+
+// Define a function, iterate, that accepts a callback.
+// Within the iterate() function, you should initialize an array.
+// It can contain anything you want, but make sure that it is not empty!
+// Call .forEach() on this array, passing the callback to .forEach().
+// Then return the array that you initialized.
+
+function iterate(callback) {
+  var stuff = []
+  stuff.forEach(callback)
+
+  return stuff;
+}
