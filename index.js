@@ -17,7 +17,7 @@ function iterativeLog(array) {
 // Then return the array that you initialized.
 
 function iterate(callback) {
-  var stuff = []
+  var stuff = [1,2,3,4,5]
   stuff.forEach(callback)
 
   return stuff;
